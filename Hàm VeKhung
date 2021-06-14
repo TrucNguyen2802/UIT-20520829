@@ -1,0 +1,17 @@
+void VeKhung()
+{
+    for (int i = 9; i <= 119; i++)
+    {
+        gotoxy(i, 0);
+        cout << (char)219;
+        gotoxy(i, 29);
+        cout << (char)219;
+    }
+    for (int i = 0; i <= 29; i++)
+    {
+        gotoxy(119, i);
+        cout << (char)219;
+        gotoxy(9, i);
+        cout << (char)219;
+    }
+}
