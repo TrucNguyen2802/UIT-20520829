@@ -1,0 +1,6 @@
+bool GameOver(CONRAN r)
+{
+    if (r.GetHeadX() == 9 || r.GetHeadX() == 119 || r.GetHeadY() == 0 || r.GetHeadY() == 29)
+        return true;
+    return r.ktTuDam();
+}
